@@ -409,7 +409,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 1170px;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 .text_section4{
     display: flex;
@@ -462,6 +462,7 @@ nav a{
 .tgl_icon p{
     margin-left: 8px;
 }
+
 .price h1{
     color: #FF5400;
     font-family:' Mulish' sans-serif;
@@ -497,3 +498,222 @@ nav a{
     padding: 10px;
     margin-bottom: 38px;
 }
+.sap_btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+/* styels for section 5 */
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    height: 424px;
+    margin: 0px auto;
+    gap: 24px;
+}
+.text_section5{
+    width: 50%;
+    
+    
+}
+.text_section5 ul{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.text_section5 p{
+    margin-bottom: 24px;
+}
+.text_section5 h1{
+    margin-bottom: 24px;
+}
+/* .text_section5 .see_more_btn{
+    margin-bottom: 50px;
+} */
+.text_section5 li{
+    color: #131318;
+    font-family: 'Mulish' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.video img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* styles for creative section */
+.creative-section{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+
+/* styles for section 6 */
+.section6{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 1170px;
+    margin: 50px auto;
+}
+
+ .text_section6{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+ }
+ .text_section6 p{
+    width: 350px;
+ }
+ /* .text_section6 .newsletter{
+    color: #131318;
+    font-family: 'Mulish' sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+ } */
+ .img_section6{
+    position: relative;
+}
+ .img_section6 img{
+    width: 100%;
+    height: 100%;
+    
+}
+ .offer{
+    z-index: 1;
+    position: absolute;
+    left: 340px;
+    top: 250px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+ }
+.t_p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.t_h{
+    color: #FFF;
+    font-family: 'Mulish' sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+ .hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+ }
+ /* .offer_text{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+ } */
+
+ .input{
+    border: none;
+    outline: none;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+    margin-bottom: 16px;
+ }
+ .text_section6 button{
+    width: 393px;
+    height: 52px;
+    margin-top: 10px;
+ }
+
+ /* styels for footer section */
+
+ footer{
+    width: 100wh;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+ }
+
+ .footer_conatiner_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 1170px;
+    height: 502px;
+    margin: 0px auto;
+    margin-top: 100px;
+   
+ }
+
+ .footer_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 110px;
+ }
+ .footer_logo img{
+    width: 40px;
+    height: 46.673px;
+    /* margin-left: 16px; */
+ }
+ .footer_logo h1{
+    color:  #131318;
+    font-family: 'Mulish' sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+ }
+ .footer_logo span{
+    color: #FF5400;
+    font-family: 'Mulish' sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+ }
+ 
+ .icons_and_text p{
+    width: 769px;
+    margin-top: 15px;
+    margin-bottom: 33px;
+    text-align: center;
+ }
+ .hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .footer_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 24px;
+ }
+ .footer_icons img{
+    width: 24px;
+    height: 24px;
+ }
