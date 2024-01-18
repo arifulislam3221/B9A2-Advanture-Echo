@@ -404,3 +404,96 @@ nav a{
     margin-top: 24px;
     padding: 32px;
 }
+/* styles for section 4 */
+.section4{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    margin: 0px auto;
+}
+.text_section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 643px; */
+    text-align: center;
+}
+.text_section4 p{
+    width: 643px;
+    text-align: center;
+}
+.section4-bg-img{
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    /* opacity: lightgray 50%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 24px;
+}
+.content_container{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-right: 56px;
+    padding: 50px;
+}
+.capacity{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 26px; */
+}
+.tgl_icon{
+    display: flex;
+    flex-direction: row;
+}
+.tgl_icon img{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.tgl_icon p{
+    margin-left: 8px;
+}
+.price h1{
+    color: #FF5400;
+    font-family:' Mulish' sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 38px;
+}
+.title{
+    color: #131318;
+    font-family:' Mulish' sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.content_container p{
+    margin-bottom: 16px;
+}
+.primary_button{
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish' sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 38px;
+}
