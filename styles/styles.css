@@ -6,38 +6,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
-/* primary styles start point*/
-.check{
-    /* background-color: red; */
-    border: 2px solid greenyellow;
-}
-/* .pri_col{
-    color: #FF5400;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.pri_p{
-    color: rgba(19, 19, 24, 0.50);
-
-    font-family: 'Mulish' sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-} */
-
-/* primary styles end*/
-
 .header{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 
 }
@@ -54,15 +26,15 @@
     flex-direction: row;
     gap: 17px;
 }
-
+.himg{
+    display: none;
+}
 .logo{
-    /* display: block; */
+
     width: 48px;
     height: 56.008px;
-    /* margin-right: 17px; */
 }
-/* font-family: 'Inter', sans-serif;
-font-family: 'Mulish', sans-serif; */
+
 .nav_line h1 {
     color: #131318;
     font-family: 'Mulish', sans-serif;
@@ -143,7 +115,6 @@ nav a{
     padding: 16px;
     gap: 24px;
     border-radius: 8px;
-    /* margin: 20px 185px; */
     background-color: rgba(255, 255, 255, 0.30);
 }
 .search_selection_btn{
@@ -212,14 +183,6 @@ nav a{
     gap: 24px;
     
 }
-/* .paragraph_container{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: left;
-    text-align: left; */
-    /* gap: 16px;
-    width: 525px;
-    padding-left: 24px; */
 .primary_h1{
     color: #131318;
     text-align: center;
@@ -240,7 +203,6 @@ nav a{
     width: 525px;
     display: flex;
     flex-direction: column-reverse;
-    /* height: 52px; */
     color: rgba(19, 19, 24, 0.70);
     font-family: ' Mulish' sans-serif;
     font-size: 16px;
@@ -267,7 +229,6 @@ nav a{
     font-weight: 800;
     outline: none;
     border: none;
-    /* margin-top: 42px; */
 }
 /* ends of a disaster */
 
@@ -282,21 +243,10 @@ nav a{
 
 }
 .text_section2{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     width: 643px;
     text-align: center;
     margin-bottom: 48px;
 }
-/* .img_section2>div>h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    justify-content: center;
-} */
 .img_section2{
    display: grid;
    grid-template-columns: repeat(12, 1fr);
@@ -417,7 +367,11 @@ nav a{
     margin-top: 24px;
     padding: 32px;
 }
+
+
 /* styles for section 4 */
+
+
 .section4{
     display: flex;
     flex-direction: column;
@@ -448,6 +402,7 @@ nav a{
     align-items: center;
     justify-content: end;
     margin-bottom: 24px;
+    border-radius: 16px;
 }
 .content_container{
     width: 579px;
@@ -535,14 +490,11 @@ nav a{
     margin: 0px auto;
     gap: 24px;
 }
-/* .text_section5{
-    width: 50%;
-    
-    
-} */
+
 .text_section5 ul{
     margin-left: 30px;
     margin-bottom: 50px;
+    /* border: 2px solid yellow; */
 }
 .text_section5 p{
     margin-bottom: 24px;
@@ -550,9 +502,7 @@ nav a{
 .text_section5 h1{
     margin-bottom: 24px;
 }
-/* .text_section5 .see_more_btn{
-    margin-bottom: 50px;
-} */
+
 .text_section5 li{
     color: #131318;
     font-family: 'Mulish' sans-serif;
@@ -569,6 +519,7 @@ nav a{
 }
 
 /* styles for creative section */
+
 .creative_section{
     width: 1170px;
     margin: 100px auto;
@@ -604,6 +555,7 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 250px;
     height: 300px;
     border: 2px solid #545478;
@@ -632,7 +584,7 @@ nav a{
     width: 100%;
     height: 24px;
     border: 1px solid yellow;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .rate img{
     width: 24px;
@@ -710,18 +662,13 @@ nav a{
     width: 474px;
     height: 422px;
     border-radius: 16px;
-    border: 1px solid #FF5400;
+    border: 3px solid #FF5400;
     padding: 20px;
  }
  .text_section6 p{
-    width: 350px;
+    width: 340px;
  }
- /* .text_section6 .newsletter{
-    color: #131318;
-    font-family: 'Mulish' sans-serif;
-    font-size: 24px;
-    font-weight: 800;
- } */
+
  .img_section6{
     position: relative;
 }
@@ -763,15 +710,6 @@ nav a{
     margin-top: 24px;
     margin-bottom: 24px;
  }
- /* .offer_text{
-    width: 324px;
-    height: 120px;
-    transform: rotate(-19.628deg);
-    flex-shrink: 0;
-    border-radius: 16px;
-    background: #FF5400;
- } */
-
  .input{
     border: none;
     outline: none;
@@ -791,7 +729,7 @@ nav a{
  /* styels for footer section */
 
  footer{
-    width: 100%;
+    min-width: 1170px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
  }
@@ -812,6 +750,7 @@ nav a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 16px;
     margin-top: 110px;
  }
@@ -839,13 +778,7 @@ nav a{
     margin-bottom: 33px;
     text-align: center;
  }
- /* .hr{
-    width: 872px;
-    height: 1px;
-    background: rgba(19, 19, 24, 0.10);
-    margin-top: 50px;
-    margin-bottom: 50px;
- } */
+
  .footer_icons{
     display: flex;
     flex-direction: row;
@@ -860,3 +793,8 @@ nav a{
     width: 24px;
     height: 24px;
  }
+ .copyright p{
+    font-family: 'Inter' sans-serif;
+ }
+
+ /* sorry sir, amar laptop khub beshi jhamela korchilo, konomote aste aste assignment shesh korlam 30 mark jonno, sorry!*/
